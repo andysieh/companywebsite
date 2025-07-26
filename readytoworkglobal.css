@@ -24,7 +24,7 @@ text-align: center;
   padding: 40px 20px;
   text-align: center;
   max-width: 800px;
-
+  margin: 0 auto;
 }
 .footer{
   background-color:#1e3a8a ;
@@ -33,5 +33,36 @@ text-align: center;
   padding: 20px;
   margin-top: 40px;
 }
-
-
+.services{
+   padding: 10px 5px;
+   background-color: #f9f9f9;
+   text-align: center;
+}
+.services h2{
+  margin-bottom: 2px;
+  color:#004d7a;
+}
+.service-cards{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+.card{
+  background-color: #e0f2fe;
+  padding: 15px;
+   border-radius: 10px;
+   width: 300px;
+}
+.intro h2{
+  margin-bottom: 2px;
+  color:#004d7a;
+}
+.card h3{
+  font-size: 22px;
+   margin-bottom: 10px;
+}
+.card p{
+  font-size: 15px;
+}
