@@ -66,3 +66,37 @@ text-align: center;
 .card p{
   font-size: 15px;
 }
+.apply {
+  padding: 40px 20px;
+  background-color: #e6f0ff;
+  text-align: center;
+}
+
+.apply h2 {
+  color: #1e3a8a;
+}
+
+.apply form {
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.apply input, .apply button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.apply button {
+  background-color: #1e3a8a;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.apply button:hover {
+  background-color: #004080;
+}
